@@ -1,5 +1,5 @@
 {
-  "databaseURL": "https://Unain-Raza-s-workspace-jj7f5b.eu-central-1.xata.sh/db/loveableclone",
+  "databaseURL": "https://Unain-Raza-s-workspace-jj7f5b.eu-central-1.xata.sh/db/interview",
   "codegen": {
     "output": "src/xata.ts"
   }

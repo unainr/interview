@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
-import UserDropDown from "../auth/UserDropDown";
+import UserDropDown from "@/components/auth/UserDropDown";
 
 export default function MainHeader() {
 	const [isScrolled, setIsScrolled] = useState(false);
