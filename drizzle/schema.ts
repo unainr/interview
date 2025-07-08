@@ -69,4 +69,13 @@ export const verification = pgTable("verification", {
 
 export const schema = { user, session, account, verification };
 
-
+export const interview = pgTable("interview", {
+  id: uuid("id").primaryKey().defaultRandom(),
+  type: text("type").notNull(),
+  role: text("role").notNull(),
+  level: text("level").notNull(),
+  techstack: text("techstack").notNull(),
+  questions: text("questions").notNull(),
+  finalized: boolean("finalized").default(false),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+});
