@@ -1,9 +1,10 @@
+import ComicCatPage from '@/components/Comic'
 import React from 'react'
 
 const Home = () => {
   return (
-    <div>
-      
+    <div >
+      <ComicCatPage/>
     </div>
   )
 }
